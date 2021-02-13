@@ -1,0 +1,124 @@
+body {
+    font-family: "Raleway", sans-serif;
+    background-color: #f6f6f6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  * {
+    margin: 0;
+    padding: 0;
+  }
+.body-wrapper{
+    background-color: #ffffff;
+    width: 873px;
+    height: 424px;
+    border: 2px solid rgba(86, 204, 242, 0.62);
+    box-sizing: border-box;
+    box-shadow: 20px 20px 40px rgba(7, 96, 124, 0.15);
+    border-radius: 11px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+  .content-wrapper {
+    width: 90%;
+    margin: 0 auto;
+
+  }
+  
+  .image-role-wrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .profile-wrapper {
+    display: flex;
+    /* width: 95%; */
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 14px 0; */
+    margin: 14px auto;
+  }
+  
+  .profile-image {
+    height: 80px;
+    border-radius: 25px;
+    border: 4px solid #0fb0e3;
+
+
+  }
+  .plus-icon {
+    height: 11px;
+    color: white;
+  }
+  .follow-button {
+    cursor: pointer;
+    width: 158px;
+    height: 40px;
+    background-color: #0fb0e3;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .name-role-wrapper {
+    justify-self: flex-start;
+    margin-left: 20px;
+  }
+  h5 {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 28px;
+    font-variant: small-caps;
+  }
+  .intro {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+  }
+  
+.intro-text{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 20px 0;
+    color: #000000;
+}
+.intro-text-container{
+    margin-top: 60px;
+}
+.like-icon{
+    color: #F45252;
+    font-size: 40px;
+    cursor: pointer;
+}
+.material-icons.md-48 { font-size: 48px; }
+.like-btn-container{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+}
+.like-counter{
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 30px;
+    line-height: 35px;
+    font-feature-settings: 'pnum' on, 'lnum' on;
+    color: #F45252;
+    margin-left: 15px;
+}
+.follow-icon{
+    color: white;
+}
+.follow-text{
+    color: white;
+}

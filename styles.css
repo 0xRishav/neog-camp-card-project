@@ -16,11 +16,13 @@ body {
     height: 424px;
     border: 2px solid rgba(86, 204, 242, 0.62);
     box-sizing: border-box;
-    box-shadow: 20px 20px 40px rgba(7, 96, 124, 0.15);
+    /* box-shadow: 20px 20px 40px rgba(7, 96, 124, 0.15); */
     border-radius: 11px;
     display: flex;
     flex-direction: column;
     position: relative;
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+    box-shadow: rgba(7, 96, 124, 0.15) 0px 22px 70px 4px;
 }
   .content-wrapper {
     width: 90%;
@@ -121,4 +123,11 @@ body {
 }
 .follow-text{
     color: white;
+}
+
+.icon-wrapper{
+    cursor: pointer;
+    position: absolute;
+    right: 70px;
+    top: 70px;
 }
